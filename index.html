@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>History API Demo</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script> 
+</head>
+<body>
+
+	<video id="intro" controls preload="metadata" width="400">
+		<source src="media/guillemot.ogv">	
+	</video>
+	<a class="history" rel="intro">Add to History</a>
+	<p>Share:</p>
+	<input class="share" rel="intro" disabled />
+	
+	<!--ogg audio tracks downloaded from: http://www.01audio-video.com/telecharger_ogg_pop.htm under a Creative Commons License-->
+	<audio id="music" controls preload="metadata">
+		<source src="media/02-allthelivingandthedead-morse.ogg" type='audio/ogg'>
+	</audio>
+	<a class="history" rel="music">Add to History</a>
+	<p>Share:</p>
+	<input class="share" rel="music" disabled />
+
+ 	<div id="features">
+	 	<h2>Description</h2>
+	 	<p>Media Memory enables you to save the playback position of any HTML5 video/audio element into the browser's history.</p>
+	 	<p>Send a specific point in a media file to your friend or just save to history for later viewing. Need to restart your browser? Save to history and your playback position will automatically load in when you return to the page.</p>
+	 	<p>The playback position is saved either when you click "Add to History" or when you pause playback.</p>
+	 	<p>You can also jump to a specific point by changing the elements time in the URL.</p>
+	 	<p>The script will work with multiple media elements.</p>
+	 	<p>Media samples attribution:</p>
+	 	<ul>
+	 		<li><a href="http://en.wikipedia.org/wiki/File:Guillemot_theora_conversion_test.ogv" title="OGV Video">Video</a></li>
+	 		<li><a href="http://www.01audio-video.com/telecharger_ogg_pop.htm" title="OGG Audio">Audio</a></li>
+	 	</ul>
+ 	</div>
+ 	<script type="text/javascript" src="scripts/media-memory.js"></script>
+</body>
+</html>
